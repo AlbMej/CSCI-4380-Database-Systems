@@ -1,0 +1,260 @@
+Week 1:
+  January 10:
+    topics:
+      - Overview of Database Systems
+      - Introdution to the Relational Model
+      - Keys
+    reading:
+      - DSTCB
+        - Chapter 1
+        - Chapter 2.1-2.2
+Week 2:
+  January 14:
+    topics:
+      - Defining Relations in SQL
+      - Relational Algebra
+      - Data Normalization
+        - Functional Dependencies
+    reading:
+      - DSTCB
+        - Chapter 2.3-2.5
+        - Chapter 3.1-3.2
+    - Homework 1 (Relational Model) Assigned
+  January 17:
+    topics:
+    - Data Normalization (cont'd)
+      - BCNF
+      - 3NF
+    reading:
+      - DSTCB
+        - Chapter 3.3-3.5
+Week 3:
+  January 21: No class (MLK Jr Day)
+  January 24:
+    topics:
+      - Data Normalization (cont'd)
+        - Multivalued Dependencies
+        - 4NF
+    reading:
+      - DSTCB
+        - Chapter 3.6-3.7
+    - Homework 1 Due on January 24
+    - Final Project Assigned
+Week 4:
+  January 28:
+    topics:
+      - Data Modeling
+        - E/R Diagrams
+        - UML
+    reading:
+      - DSTCB
+        - Chapter 4
+    - Homework 2 (Database Design) Assigned
+  January 31:
+    topics:
+    - Algebraic Query Languages
+    - Datalog
+    reading:
+      - DSTCB
+        - Chapter 5
+Week 5:
+  February 4:
+    topics:
+      - SQL
+        - Basic Queries
+        - Joins
+        - Nested Queries
+        - Grouping (aggregate functions)
+    reading:
+      - DSTCB
+        - Chapter 6.1-6.4
+  February 7:
+    topics:
+      - SQL (continued)
+        - Modifying data
+        - Inserts/Updates/Deletes
+        - Transactions
+        - Dirty reads
+        - Commits and Rollbacks
+        - Constraints
+        - Keys
+    reading:
+      - DSTCB
+        - Chapter 6.5-6.7
+        - Chapter 7.1
+    - Homework 2 Due
+    - Final Project Topic Memo Due February 8 (Friday)
+Week 6:
+  February 11:
+    topics:
+      - SQL (continued)
+        - Constraints
+        - Constraints on attributes and tuples
+        - Assertions
+        - Triggers and Stored Procedures
+    reading:
+      - DSTCB
+        - Chapter 7.2-7.6
+        - Chapter 9.4
+    - Homework 3 (SQL Queries) Assigned
+  February 14:
+    topics:
+      - SQL (continued)
+        - Triggers and Stored procedures
+    reading:
+      - PL/pgSQL
+          url: https://www.postgresql.org/docs/10/plpgsql.html
+Week 7:
+  February 19:
+    topics:
+      - SQL (continued)
+        - Views
+        - Indexes
+    reading:
+      - DSTCB
+        - Chapter 8
+  February 22:
+    topics:
+      - Storing Data on Disk
+    reading:
+      - DSTCB
+        - Chapter 13
+    - Homework 3 Due
+Week 8:
+  February 25:
+    topics:
+      - Catch-up and Review for Exam
+    - Final Project Schemas Due
+  February 28:
+    topics: Mid-term exam
+Week 9:
+  March 4, 7: Spring Break
+  March 11:
+    topics:
+      - SQL in applications
+        - Architectures
+          - N-Tier Systems
+          - Microservice Architectures
+        - JDBC
+        - PHP
+        - Python
+    reading:
+      - DSTCB
+        - Chapter 9.1-9.2, 9.6-9.7
+      - Microservices Architecture
+        url: http://martinfowler.com/articles/microservices.html
+      - Working with SQL in Python
+        url: http://www.python-course.eu/sql_python.php
+    - Homework 4 (Pl/SQL) Assigned
+  March 14:
+    topics:
+      - Security
+        - SQL Injection
+        - Storage of sensitive data
+        - Hash + Salt
+        - 2-way encryption
+    reading:
+      - Salted Password Hashing
+        url: https://www.codeproject.com/Articles/704865/Salted-Password-Hashing-Doing-it-Right
+      - SQL Injection
+        url: https://www.owasp.org/index.php/SQL_Injection
+      - Postgres pgcrypto module
+        url: https://www.postgresql.org/docs/9.5/static/pgcrypto.html
+      - Password Storage
+        url: https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet
+Week 10:
+  March 18:
+    topics:
+      - User Privileges
+      - Semi-structured Data
+        - JSON
+        - YML?
+        - XML
+    reading:
+      - DSTCB
+        - Chapter 10.1
+        - Chapter 11
+  March 21:
+    topics:
+      - XML continued
+        - XPath
+        - XQuery
+        - XSLT
+    reading:
+      - DSTCB
+        - Chapter 12
+    - Homework 4 Due
+Week 11:
+  March 25:
+    topics:
+      - Indexes
+        - Data structures
+        - B-Trees
+        - Hash Tables
+      reading:
+      - Chapter 14 (focus on 14.1-14.3)
+  March 28:
+    topics:
+      - Index structures continued
+    reading:
+      - DSTCB
+        - Chapter 14.4-14.7
+    - Final Project Data Loading Due
+    - Homework 5 (Database Tier in an Application) Assigned
+Week 12:
+  April 1:
+    topics:
+      - Query Execution
+    reading:
+      - DSTCB
+        - Chapter 15
+  April 4:
+    topics:
+      - The Query Compiler
+    reading:
+      - DSTCB
+        - Chapter 16
+Week 13:
+  April 8:
+    topics:
+      - The Query Compiler continued
+    reading:
+      - DSTCB
+        - Chapter 16
+    - Homework 5 Due
+    - Homework 6 (XML Data) Assigned
+  April 11:
+    topics:
+      - Logging
+    reading:
+      - DSTCB
+        - Chapter 17
+Week 14:
+  April 15:
+    topics:
+      - NoSQL
+        - Document Databases (MongoDB)
+        - Graph Databases (Neo4J)
+        - Object Storage (OpenStack Swift)
+    reading:
+      - OpenStack Swift
+        url: https://docs.openstack.org/swift/latest/admin/index.html
+  April 18:
+    topics:
+      - Parallel and Distributed Databases
+        - Map/Reduce
+      - Blockchain
+      - Final Exam Review
+    reading:
+      - DSTCB
+        - Chapter 20.1-20.5
+      - url: https://blockchaindemo.io/
+    - Homework 6 Due
+Week 15:
+  April 22:
+    topics:
+      - Final Project Presentations
+    - Final Project code due
+  April 25:
+    topics:
+      - Final Project Presentations

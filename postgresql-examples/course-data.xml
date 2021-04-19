@@ -1,0 +1,41 @@
+<course-data>
+    <courses>
+        <course>
+            <time>MR8-10</time>
+        </course>
+        <course name="Database Systems" semester="S19">
+            <time>MR4-6</time>
+            <location>DCC 318</location>
+            <students>
+                <student id="alice1">alice</student>
+            </students>
+        </course>
+        <course name="Database Systems" semester="F18" capacity="25">
+            <time>W6-9</time>
+            <location>Low 3039</location>
+        </course>
+        <course name="Operating Systems" semester="S19">
+            <time>MR10-12</time>
+            <location>DCC 308</location>
+            <students>
+                <student id="alice3">alice</student>
+                <student id="alice1">alice</student>
+            </students>
+        </course>
+    </courses>
+    <students>
+        <student name="alice" id="alice1">
+            <email>alice@example.com</email>
+            <courses-attended>
+                <course name="Database Systems" semester="F18"/>
+                <course name="Operating Systems" semester="F19"/>
+            </courses-attended>
+        </student>
+        <student name="bob" id="bob1">
+            <email>bob@example.com</email>
+            <courses-attended>
+                <course name="Operating Systems" semester="F19"/>
+            </courses-attended>
+        </student>
+    </students>
+</course-data>
